@@ -1,0 +1,17 @@
+{
+  "publisher": "Excedption",
+  "contactEmail": "excedption@gmail.com",
+  "lastUpdated": "2026-04-24",
+  "effectiveDate": "2026-04-18",
+  "games": [
+    { "slug": "crystal-merge",  "name": "Crystal Merge",  "tagline": "2048 Puzzle" },
+    { "slug": "diamond-dodge",  "name": "Diamond Dodge",  "tagline": "Reflex Arcade" },
+    { "slug": "flow-link",      "name": "Flow Link",      "tagline": "Connect Puzzle" },
+    { "slug": "neon-flip",      "name": "Neon Flip",      "tagline": "Card Match" },
+    { "slug": "paper-white",    "name": "Word Fold",      "tagline": "Word Puzzle" },
+    { "slug": "prism-path",     "name": "Prism Path",     "tagline": "Light Puzzle" },
+    { "slug": "pulse-pop",      "name": "Pulse Pop",      "tagline": "Drop Puzzle" },
+    { "slug": "soft-bubbles",   "name": "Soft Bubbles",   "tagline": "Bubble Merge" },
+    { "slug": "tile-triple",    "name": "Tile Triple",    "tagline": "Tile Match" }
+  ]
+}
