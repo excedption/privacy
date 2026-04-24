@@ -67,6 +67,6 @@ python3 -m http.server 8080
 
 ## Legal Note
 
-This template was drafted to cover the current Excedption Games stack: **Capacitor wrapper + Google AdMob + in-app purchase for ad removal, no servers, no accounts**. If the stack changes (e.g., cloud saves, analytics SDK, user-generated content, chat, leaderboards requiring login), the policy needs a human review — ideally by a lawyer.
+This template was drafted to cover the current Excedption Games stack: **Capacitor wrapper + Unity Ads + in-app purchase for ad removal, no servers, no accounts**. If the stack changes (e.g., cloud saves, analytics SDK, user-generated content, chat, leaderboards requiring login), the policy needs a human review — ideally by a lawyer.
 
 The template is not legal advice.
