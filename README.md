@@ -21,9 +21,8 @@ Single Privacy Policy that covers all games published by Excedption. Designed to
    - **Branch**: `main` — `/ (root)` (or `/docs` if you chose that folder)
 5. After a minute, your URL will be live at:
    ```
-   https://<your-username>.github.io/<repo-name>/
+   https://<your-username>.github.io/game-policies/
    ```
-   For this deployment (`excedption/privacy`): `https://excedption.github.io/privacy/`.
 6. Paste this URL into both stores:
    - **Google Play Console** → App content → Privacy Policy URL
    - **App Store Connect** → App Privacy → Privacy Policy URL
