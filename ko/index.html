@@ -33,7 +33,7 @@
     <li>이름, 이메일, 전화번호, 연락처, 사진, 위치 정보를 <strong>수집하지 않습니다</strong>.</li>
     <li>회원가입을 요구하지 <strong>않습니다</strong>.</li>
     <li>게임 진행 데이터(점수, 설정 등)는 <strong>이용자 기기 내부에만 저장</strong>됩니다.</li>
-    <li>광고는 <strong>Unity Ads</strong>(Unity Technologies Inc.)를 통해 표시되며, 익명 광고 식별자를 사용합니다.</li>
+    <li>광고는 <strong>Unity LevelPlay 미디에이션</strong>을 통해 표시되며, <strong>Unity Ads</strong> 및 <strong>ironSource Ads</strong>가 익명 광고 식별자를 사용하여 광고를 송출하고 측정할 수 있습니다.</li>
     <li>맞춤형 광고는 기기 설정에서 언제든지 비활성화할 수 있습니다.</li>
     <li>인앱 결제를 통해 "광고 제거"를 구매하면 광고 송출이 중단됩니다.</li>
   </ul>
@@ -52,7 +52,7 @@
   <p>본 데이터는 이용자 기기의 로컬 저장소에 기록되며, <strong>우리 서버로 전송되지 않습니다</strong>. 앱을 삭제하면 본 데이터도 함께 삭제됩니다.</p>
 
   <h3>3.2 제3자 서비스에 의한 수집</h3>
-  <p>광고가 표시되는 동안 Unity Ads가 다음 정보를 수집합니다.</p>
+  <p>광고가 표시되는 동안 Unity LevelPlay, Unity Ads 및 ironSource Ads가 다음 정보를 수집할 수 있습니다.</p>
   <ul>
     <li><strong>광고 식별자</strong> — iOS의 IDFA, Android의 AAID (이용자가 언제든지 초기화 가능)</li>
     <li><strong>근사 위치</strong> — IP 기반 (국가·지역 수준, 정밀 위치 아님)</li>
@@ -60,7 +60,7 @@
     <li><strong>광고 상호작용 데이터</strong> — 노출된 광고, 클릭, 체류 시간</li>
     <li><strong>충돌 및 진단 로그</strong> — SDK 안정성 확보 목적</li>
   </ul>
-  <p>본 데이터에 우리는 직접 접근하지 않습니다. 해당 데이터는 Unity Technologies의 개인정보처리방침에 따라 처리됩니다: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">unity.com/legal/privacy-policy</a>.</p>
+  <p>본 데이터에 우리는 직접 접근하지 않습니다. 해당 데이터는 Unity Technologies 및/또는 ironSource Ads의 개인정보처리방침에 따라 처리됩니다: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity 개인정보처리방침</a>, <a href="https://www.is.com/privacy-policy/" target="_blank" rel="noopener">ironSource 개인정보처리방침</a>.</p>
 
   <h3>3.3 앱 스토어에 의한 처리 (우리에게 전달되지 않음)</h3>
   <p>이용자가 앱을 설치하거나 결제를 진행할 때 Apple App Store 및 Google Play는 각 스토어의 개인정보처리방침에 따라 결제 및 기기 식별 정보를 처리합니다. 우리는 개인 식별이 불가능한 집계 매출 리포트만 수신합니다.</p>
@@ -69,7 +69,7 @@
 <section>
   <h2>4. 이용 목적</h2>
   <ul>
-    <li>Unity Ads를 통한 광고 표시 및 효과 측정</li>
+    <li>Unity LevelPlay, Unity Ads 및 ironSource Ads를 통한 광고 표시 및 효과 측정</li>
     <li>충돌 진단 및 앱 안정성 개선</li>
     <li>"광고 제거" 구매 확인 및 광고 송출 중지</li>
   </ul>
@@ -80,7 +80,8 @@
   <h2>5. 제3자 서비스</h2>
   <p>본 게임은 다음 제3자 서비스를 이용하며, 각 서비스는 별도의 개인정보처리방침을 따릅니다.</p>
   <ul>
-    <li><strong>Unity Ads</strong> (Unity Technologies Inc., 광고) — <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity 개인정보처리방침</a></li>
+    <li><strong>Unity LevelPlay / Unity Ads</strong> (Unity Technologies Inc., 미디에이션 및 광고) — <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity 개인정보처리방침</a></li>
+    <li><strong>ironSource Ads</strong> (LevelPlay를 통한 광고 수요 및 측정) — <a href="https://www.is.com/privacy-policy/" target="_blank" rel="noopener">ironSource 개인정보처리방침</a></li>
     <li><strong>Google Play Billing</strong> / <strong>Apple StoreKit</strong> (인앱 결제) — 각 스토어 정책에 따라 처리</li>
     <li><strong>Apple SKAdNetwork</strong> (iOS 14.5+ 프라이버시 보존 광고 귀속) — Apple이 처리</li>
     <li><strong>Unity Ads 동의 수집 플로우</strong> (IAB TCF v2.2 기반, EU / 영국 동의 수집) — Unity가 처리</li>
@@ -89,21 +90,21 @@
 
 <section>
   <h2>5A. 사용되는 광고 포맷</h2>
-  <p>본 게임은 Unity Ads가 제공하는 다음 광고 포맷을 이용합니다.</p>
+  <p>본 게임은 Unity LevelPlay 미디에이션을 통해 다음 광고 포맷을 이용합니다.</p>
   <ul>
     <li><strong>배너 광고</strong> — 게임플레이 중 화면 하단에 표시되는 작은 광고. 인앱 결제로 제거 전까지 상시 노출됩니다.</li>
-    <li><strong>전면 광고 (Interstitial)</strong> — 게임 세션 사이(주로 게임 오버 시점)에 전체 화면으로 표시되는 광고. 60초당 1회 이하로 빈도가 제한됩니다.</li>
+    <li><strong>전면 광고 (Interstitial)</strong> — 게임 세션 사이(주로 게임 오버 시점)에 전체 화면으로 표시되는 광고. 앱 로직상 일정 간격으로 제한되며, 일반적으로 최소 3분 이후의 적절한 전환 시점에만 표시됩니다.</li>
     <li><strong>보상형 광고 (Rewarded)</strong> — 이용자가 게임 내 보상(예: 추가 생명)을 받기 위해 자발적으로 시청하는 동영상 광고. 강제 노출되지 않습니다.</li>
   </ul>
   <p>보상형 광고는 이용자 자발적 시청으로 간주되므로, 광고 추적을 거부한 경우에도 시청 및 보상 획득이 가능합니다.</p>
-  <p>광고 카테고리는 본 게임의 연령 등급에 따라 Unity Ads 대시보드에서 필터링되며, 도박·주류·성인물 등 일반 이용자에게 부적합한 카테고리는 차단됩니다.</p>
+  <p>광고 카테고리는 본 게임의 연령 등급에 따라 Unity LevelPlay / Unity Ads 대시보드에서 필터링되며, 도박·주류·성인물 등 일반 이용자에게 부적합한 카테고리는 차단됩니다.</p>
 </section>
 
 <section>
   <h2>6. 이용자의 선택과 권리</h2>
 
   <h3>6.1 맞춤형 광고 거부</h3>
-  <p><strong>iOS (14.5 이상):</strong> 앱을 처음 실행하면 "이 앱이 사용자의 활동을 추적하도록 허용하시겠습니까?"라는 안내가 표시됩니다. "앱이 추적하지 않도록 요청"을 선택하면 Unity Ads는 비맞춤형 광고만 표시합니다. <code>설정 → 개인정보 보호 및 보안 → 추적</code>에서 언제든지 변경 가능합니다.</p>
+  <p><strong>iOS (14.5 이상):</strong> 앱을 처음 실행하면 "이 앱이 사용자의 활동을 추적하도록 허용하시겠습니까?"라는 안내가 표시됩니다. "앱이 추적하지 않도록 요청"을 선택하면 Unity Ads / LevelPlay는 적용 가능한 경우 비맞춤형 광고만 표시합니다. <code>설정 → 개인정보 보호 및 보안 → 추적</code>에서 언제든지 변경 가능합니다.</p>
   <p><strong>Android:</strong> <code>설정 → Google → 광고 → 맞춤 광고 선택 해제</code>에서 비활성화할 수 있으며, 같은 화면에서 광고 ID를 초기화할 수 있습니다.</p>
 
   <h3>6.2 데이터 삭제</h3>
@@ -115,7 +116,7 @@
 
 <section>
   <h2>7. EU / 영국 이용자 (GDPR)</h2>
-  <p>EU 경제지역 또는 영국에서 본 게임에 접속하는 경우, 맞춤형 광고를 표시하기 전에 Unity Ads의 IAB TCF v2.2 기반 동의 플로우가 동의를 요청합니다.</p>
+  <p>EU 경제지역 또는 영국에서 본 게임에 접속하는 경우, 맞춤형 광고를 표시하기 전에 Unity Ads / LevelPlay의 동의 플로우가 동의를 요청합니다.</p>
   <ul>
     <li><strong>동의</strong> — Unity Ads가 관심사 기반 맞춤형 광고를 표시합니다.</li>
     <li><strong>거부</strong> — Unity Ads가 비맞춤형(컨텍스트 기반) 광고만 표시합니다.</li>
@@ -150,7 +151,8 @@
 
   <h3>8A.2 개인정보 처리위탁 (수탁자)</h3>
   <ul>
-    <li><strong>Unity Technologies Inc.</strong> — 광고 송출 및 효과 측정 (Unity Ads)</li>
+    <li><strong>Unity Technologies Inc.</strong> — 미디에이션, 광고 송출 및 효과 측정 (Unity LevelPlay / Unity Ads)</li>
+    <li><strong>ironSource Ads</strong> — LevelPlay를 통한 광고 수요 및 측정</li>
     <li><strong>Google LLC</strong> — 인앱 결제 처리 (Google Play Billing)</li>
     <li><strong>Apple Inc.</strong> — 인앱 결제 처리 (StoreKit), 광고 귀속 (SKAdNetwork)</li>
   </ul>
@@ -183,12 +185,12 @@
 
 <section>
   <h2>10. 데이터 보안</h2>
-  <p>이용자 기기에 저장되는 데이터는 기기 자체의 보안(화면 잠금, OS 샌드박스)에 의존합니다. Unity Ads로 전송되는 데이터는 HTTPS/TLS로 암호화되어 전송됩니다. 우리는 서버를 운영하지 않으므로 별도의 서버 측 보안은 적용되지 않습니다.</p>
+  <p>이용자 기기에 저장되는 데이터는 기기 자체의 보안(화면 잠금, OS 샌드박스)에 의존합니다. Unity LevelPlay / Unity Ads / ironSource Ads로 전송되는 데이터는 HTTPS/TLS로 암호화되어 전송됩니다. 우리는 서버를 운영하지 않으므로 별도의 서버 측 보안은 적용되지 않습니다.</p>
 </section>
 
 <section>
   <h2>11. 국외 이전</h2>
-  <p>본 게임은 App Store와 Google Play를 통해 전 세계에 배포됩니다. Unity Ads가 수집한 데이터는 미국 또는 그 외 국가에서 처리될 수 있으며, Unity Technologies는 EU 표준계약조항(SCC) 등 적법한 국외 이전 근거를 보유하고 있습니다.</p>
+  <p>본 게임은 App Store와 Google Play를 통해 전 세계에 배포됩니다. Unity LevelPlay, Unity Ads 및 ironSource Ads가 수집한 데이터는 미국 또는 그 외 국가에서 처리될 수 있으며, Unity Technologies 및 ironSource는 EU 표준계약조항(SCC) 등 적법한 국외 이전 근거를 보유하고 있습니다.</p>
 </section>
 
 <section>

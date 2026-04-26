@@ -33,7 +33,7 @@
     <li>We do <strong>not</strong> collect your name, email, phone number, contacts, photos, or location.</li>
     <li>We do <strong>not</strong> require you to create an account.</li>
     <li>Your game progress (scores, settings) is saved <strong>only on your device</strong>.</li>
-    <li>We show ads through <strong>Unity Ads</strong> (Unity Technologies Inc.), which uses an anonymous advertising ID to show you relevant ads.</li>
+    <li>We show ads through <strong>Unity LevelPlay mediation</strong>, including <strong>Unity Ads</strong> and <strong>ironSource Ads</strong>, which may use an anonymous advertising identifier to deliver and measure ads.</li>
     <li>You can disable personalized ads at any time in your device settings.</li>
     <li>Removing ads through in-app purchase stops ad-serving but does not change this policy.</li>
   </ul>
@@ -52,7 +52,7 @@
   <p>This data is stored in your device's local storage and is <strong>never transmitted to our servers</strong>. If you uninstall the game, this data is deleted.</p>
 
   <h3>3.2 Collected by Third-Party Services</h3>
-  <p>The following data is collected by Unity Ads when ads are shown:</p>
+  <p>The following data may be collected by Unity LevelPlay, Unity Ads, and ironSource Ads when ads are shown:</p>
   <ul>
     <li><strong>Advertising identifier</strong> — IDFA on iOS, AAID on Android (you can reset this at any time)</li>
     <li><strong>Approximate location</strong> — derived from IP address (country / region level, not precise)</li>
@@ -60,7 +60,7 @@
     <li><strong>Ad interaction data</strong> — which ads were shown, clicks, dwell time</li>
     <li><strong>Crash and diagnostic logs</strong> — for SDK stability</li>
   </ul>
-  <p>We do not have direct access to this raw data. It is collected and processed by Unity Technologies under its own privacy policy: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">unity.com/legal/privacy-policy</a>.</p>
+  <p>We do not have direct access to this raw data. It is collected and processed by Unity Technologies and/or ironSource Ads under their own privacy policies: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity privacy policy</a> and <a href="https://www.is.com/privacy-policy/" target="_blank" rel="noopener">ironSource privacy policy</a>.</p>
 
   <h3>3.3 Processed by the App Stores (Not by Us)</h3>
   <p>When you install or purchase our apps, the Apple App Store and Google Play process billing and device-identity data according to their own policies. We receive only aggregated, non-personally-identifiable sales reports.</p>
@@ -69,7 +69,7 @@
 <section>
   <h2>4. How We Use Data</h2>
   <ul>
-    <li>To display ads and measure their effectiveness (via Unity Ads)</li>
+    <li>To display ads and measure their effectiveness (via Unity LevelPlay, Unity Ads, and ironSource Ads)</li>
     <li>To diagnose crashes and improve app stability</li>
     <li>To verify your "Remove Ads" purchase and disable ad-serving accordingly</li>
   </ul>
@@ -80,7 +80,8 @@
   <h2>5. Third-Party Services</h2>
   <p>Our games use the following third-party services. Each has its own privacy policy:</p>
   <ul>
-    <li><strong>Unity Ads</strong> (Unity Technologies Inc., advertising) — <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity privacy policy</a></li>
+    <li><strong>Unity LevelPlay / Unity Ads</strong> (Unity Technologies Inc., mediation and advertising) — <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity privacy policy</a></li>
+    <li><strong>ironSource Ads</strong> (advertising demand and measurement through LevelPlay) — <a href="https://www.is.com/privacy-policy/" target="_blank" rel="noopener">ironSource privacy policy</a></li>
     <li><strong>Google Play Billing</strong> / <strong>Apple StoreKit</strong> (in-app purchase) — processed by the respective store</li>
     <li><strong>Apple SKAdNetwork</strong> (iOS 14.5+ privacy-preserving ad attribution) — processed by Apple</li>
     <li><strong>Unity Ads consent flow</strong> (IAB TCF v2.2, EU / UK consent collection) — processed by Unity</li>
@@ -90,21 +91,21 @@
 
 <section>
   <h2>5A. Ad Formats Used</h2>
-  <p>Our games use the following ad formats delivered by Unity Ads:</p>
+  <p>Our games use the following ad formats delivered through Unity LevelPlay mediation:</p>
   <ul>
     <li><strong>Banner ads</strong> — Small ads shown at the bottom of the screen during gameplay. Always visible unless removed by in-app purchase.</li>
-    <li><strong>Interstitial ads</strong> — Full-screen ads shown between game sessions, typically after a game-over event. Frequency is capped to at most one every 60 seconds.</li>
+    <li><strong>Interstitial ads</strong> — Full-screen ads shown between game sessions, typically after a game-over event. Frequency is capped in the app logic and is generally limited to eligible transitions after at least 3 minutes.</li>
     <li><strong>Rewarded ads</strong> — Optional video ads the player may choose to watch in exchange for an in-game reward (e.g., extra life). Always initiated by the user; never forced.</li>
   </ul>
   <p>Rewarded ads are considered user-initiated. Even if you decline Ad Tracking, you may still choose to watch rewarded ads; doing so will not cause our games to track you across other apps or websites.</p>
-  <p>Ad content is filtered in the Unity Ads dashboard according to the age rating of our games. We do not allow advertising categories that are unsuitable for a general audience (for example, gambling, alcohol, or explicit content).</p>
+  <p>Ad content is filtered in the Unity LevelPlay / Unity Ads dashboard according to the age rating of our games. We do not allow advertising categories that are unsuitable for a general audience (for example, gambling, alcohol, or explicit content).</p>
 </section>
 
 <section>
   <h2>6. Your Choices and Rights</h2>
 
   <h3>6.1 Opt Out of Personalized Ads</h3>
-  <p><strong>iOS (14.5 and later):</strong> The first time you open the app you will see an "Allow this app to track your activity?" prompt. If you choose "Ask App Not to Track", Unity Ads will show non-personalized ads only. You can also change this at any time in <code>Settings → Privacy & Security → Tracking</code>.</p>
+  <p><strong>iOS (14.5 and later):</strong> The first time you open the app you will see an "Allow this app to track your activity?" prompt. If you choose "Ask App Not to Track", Unity Ads / LevelPlay will show non-personalized ads where applicable. You can also change this at any time in <code>Settings → Privacy & Security → Tracking</code>.</p>
   <p><strong>Android:</strong> You can opt out of ad personalization in <code>Settings → Google → Ads → Opt out of Ads Personalization</code>. You can also reset your Advertising ID from the same screen.</p>
 
   <h3>6.2 Delete Your Data</h3>
@@ -116,7 +117,7 @@
 
 <section>
   <h2>7. EU / UK Users (GDPR)</h2>
-  <p>If you access our games from the European Economic Area or the United Kingdom, Unity Ads' IAB TCF v2.2 consent flow will ask for your consent before personalized ads are shown. Your choices:</p>
+  <p>If you access our games from the European Economic Area or the United Kingdom, Unity Ads / LevelPlay consent flow will ask for your consent before personalized ads are shown. Your choices:</p>
   <ul>
     <li><strong>Consent</strong> — Unity Ads shows personalized ads based on your interests.</li>
     <li><strong>Do not consent</strong> — Unity Ads shows only non-personalized (contextual) ads.</li>
@@ -151,7 +152,8 @@
 
   <h3>8A.2 Third-Party Processors (수탁자)</h3>
   <ul>
-    <li><strong>Unity Technologies Inc.</strong> — advertising delivery and measurement (Unity Ads)</li>
+    <li><strong>Unity Technologies Inc.</strong> — mediation, advertising delivery, and measurement (Unity LevelPlay / Unity Ads)</li>
+    <li><strong>ironSource Ads</strong> — advertising demand and measurement through LevelPlay</li>
     <li><strong>Google LLC</strong> — in-app billing (Google Play Billing)</li>
     <li><strong>Apple Inc.</strong> — in-app billing (StoreKit), ad attribution (SKAdNetwork)</li>
   </ul>
@@ -175,12 +177,12 @@
 
 <section>
   <h2>10. Data Security</h2>
-  <p>All data stored locally on your device is subject to your device's own security (screen lock, OS-level sandboxing). Data transmitted to Unity Ads is encrypted in transit via HTTPS/TLS. We implement no additional server-side security because we operate no servers.</p>
+  <p>All data stored locally on your device is subject to your device's own security (screen lock, OS-level sandboxing). Data transmitted to Unity LevelPlay / Unity Ads / ironSource Ads is encrypted in transit via HTTPS/TLS. We implement no additional server-side security because we operate no servers.</p>
 </section>
 
 <section>
   <h2>11. International Transfers</h2>
-  <p>Our games are distributed worldwide through the App Store and Google Play. Data collected by Unity Ads may be processed in the United States or other countries. Unity Technologies relies on lawful transfer mechanisms such as EU Standard Contractual Clauses (SCCs) for international transfers.</p>
+  <p>Our games are distributed worldwide through the App Store and Google Play. Data collected by Unity LevelPlay, Unity Ads, and ironSource Ads may be processed in the United States or other countries. Unity Technologies and ironSource rely on lawful transfer mechanisms such as EU Standard Contractual Clauses (SCCs) for international transfers.</p>
 </section>
 
 <section>
